@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pillar - Bildstile feature.
+ */
+
+include_once 'pillar_bildstile.features.inc';

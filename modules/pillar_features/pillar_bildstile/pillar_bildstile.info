@@ -1,0 +1,10 @@
+name = Pillar - Bildstile
+description = Enthält alle Bildstile
+core = 7.x
+package = Pillar
+version = 7.x-1.0
+project = pillar_bildstile
+dependencies[] = image
+features[features_api][] = api:2
+features[image][] = default
+features[image][] = small

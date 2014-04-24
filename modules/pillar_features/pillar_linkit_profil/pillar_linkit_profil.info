@@ -1,0 +1,11 @@
+name = Pillar - Linkit Profil
+description = Enthält Linkit Profil
+core = 7.x
+package = Pillar
+version = 7.x-1.0
+project = pillar_linkit_profil
+dependencies[] = ctools
+dependencies[] = linkit
+features[ctools][] = linkit:linkit_profiles:1
+features[features_api][] = api:2
+features[linkit_profiles][] = linkit_standard

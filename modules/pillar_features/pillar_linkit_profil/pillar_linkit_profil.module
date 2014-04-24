@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pillar - Linkit Profil feature.
+ */
+
+include_once 'pillar_linkit_profil.features.inc';
