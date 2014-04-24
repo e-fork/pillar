@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Pillar - Strongarm feature.
- */
-
-include_once 'pillar_strongarm.features.inc';
