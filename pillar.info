@@ -41,8 +41,8 @@ dependencies[] = user
 ; Date/Time
 dependencies[] = date
 dependencies[] = date_api
-; Efork
-dependencies[] = efork_customconfigs
+; Pillar
+dependencies[] = pillar_customconfigs
 ; Fields
 dependencies[] = fences
 dependencies[] = filefield_sources
