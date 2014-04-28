@@ -108,17 +108,20 @@ function pillar_install() {
   menu_rebuild();
   // revert features to ensure they are all installed
   $features = array(
-    'pillar_berechtigungen',
     'pillar_bildstile',
     'pillar_linkit_profil',
-    'pillar_nutzer_rollen',
-    'pillar_sprache_bersetzung',
     'pillar_strongarm',
-    'pillar_textformate'
+    'pillar_textformate',
+    'pillar_rollen_berechtigungen'
   );
   features_revert($features);
   // ignore any rebuild messages
   node_access_needs_rebuild(FALSE);
   // ignore any other install messages
   drupal_get_messages();
+
+  $path = 'sites/default/files/private';
+  if (!is_dir($path) || !is_writable($path)){
+    drupal_mkdir($path);
+  }
 }
