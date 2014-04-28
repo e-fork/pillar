@@ -110,9 +110,11 @@ function pillar_install() {
   $features = array(
     'pillar_bildstile',
     'pillar_linkit_profil',
+    'pillar_nutzer_rollen',
+    'pillar_sprache_bersetzung',
     'pillar_strongarm',
     'pillar_textformate',
-    'pillar_rollen_berechtigungen'
+    'pillar_berechtigungen'
   );
   features_revert($features);
   // ignore any rebuild messages
@@ -121,7 +123,5 @@ function pillar_install() {
   drupal_get_messages();
 
   $path = 'sites/default/files/private';
-  if (!is_dir($path) || !is_writable($path)){
-    drupal_mkdir($path);
-  }
+  drupal_mkdir($path);
 }

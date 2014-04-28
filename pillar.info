@@ -109,9 +109,9 @@ dependencies[] = features_translations
 dependencies[] = features_roles_permissions
 dependencies[] = pillar_bildstile
 dependencies[] = pillar_linkit_profil
-;dependencies[] = pillar_nutzer_rollen
+dependencies[] = pillar_nutzer_rollen
 ;dependencies[] = pillar_sprache_bersetzung
 dependencies[] = pillar_strongarm
 dependencies[] = pillar_textformate
-dependencies[] = pillar_rollen_berechtigungen
+dependencies[] = pillar_berechtigungen
 
