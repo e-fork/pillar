@@ -26,6 +26,11 @@ drush cc all
 ```
 You are ready to develop your new website with the power of pillar ;)
 
+Important
+=========
+
+After the installation the default Drupal-Paths for User and Admin are changed because of security reasons. The User-Path will be at "/member". The Admin-Path will be at "/backend". You also can change this settings in the backend (search for Rename Admin Paths).
+
 Under the hood
 ==============
 Following modules are installed and enabled as default
