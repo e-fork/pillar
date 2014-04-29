@@ -1,6 +1,6 @@
 Pillar
 ======
-Drupal 7 Profile/Distribution for fast projectcreation. This profile was developed by www.e-fork.de and www.devtim.de. It gives easy start assistance for the most drupal website-projects. The most needed modules are already configured so the installation gives some optimized behauvior for editors, admins and also includes SEO via metatags. It also uses the Media (7.x-2.0-alpha3+79-dev) module for filemanagent, and the mediaelent.js for HTML5-Video support for older browsers. Backend-theme is adminimal, frontend-theme is ZURB Foundation V5 to give the best experience for responsive behauvior.
+Drupal 7 Profile/Distribution for fast projectcreation. This profile was developed by (https://www.e-fork.de "e-fork") and (https://www.devtim.de "devtim"). It gives easy start assistance for the most drupal website-projects. The most needed modules are already configured so the installation gives some optimized behauvior for editors, admins and also includes SEO via metatags. It also uses the Media (7.x-2.0-alpha3+79-dev) module for filemanagent, and the mediaelent.js for HTML5-Video support for older browsers. Backend-theme is adminimal, frontend-theme is ZURB Foundation V5 to give the best experience for responsive behauvior.
 
 Quick install and usage
 =======================
