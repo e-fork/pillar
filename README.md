@@ -1,6 +1,6 @@
-pillar
+Pillar
 ======
-Drupal 7 Profile/Distribution for fast projectcreation
+Drupal 7 Profile/Distribution for fast projectcreation. This profile was developed by www.e-fork.de and www.devtim.de. It gives easy start assistance for the most drupal website-projects. The most needed modules are already configured so the installation gives some optimized behauvior for editors, admins and also includes SEO via metatags. It also uses the Media (7.x-2.0-alpha3+79-dev) module for filemanagent, and the mediaelent.js for HTML5-Video support for older browsers. Backend-theme is adminimal, frontend-theme is ZURB Foundation V5 to give the best experience for responsive behauvior.
 
 Quick install and usage
 =======================
@@ -10,7 +10,7 @@ drush make pillar.make
 ```
 Now the whole Drupal 7, all modules, themes and the install profile pillar will be downloaded to your directory. After that visit your new site (for example on "localhost") and install your website. As default the pillar installprofile is selected. 
 
-@note: if you want to change the installprofile to standard update the parameter in the url from pillar to standard.
+@note: if you want to change the installprofile to standard, update the parameter in the url from pillar to standard.
 
 Now update your modules and your translationfiles (tranlation over UI).
 ```batchfile
